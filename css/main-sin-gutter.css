@@ -1,0 +1,14 @@
+/* AGREGANDO ESTILOS A LA IMAGEN GATITO */
+
+[class*='kitten-']{
+    position: absolute;
+    width: 65%;
+    left: 14.5%;
+    bottom: 10%;
+}
+
+/* AGREGANDO ESTILOS AL FONDO */
+[class*='background-']{
+    position: relative;
+    width: 100%;
+}

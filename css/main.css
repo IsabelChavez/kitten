@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* MOSTRANDO IMAGEN DAWN / PRIMERA IMAGEN */
+
+@media (min-width: 360px){
+.kitty-background-one {
+    display: block;
+}
+
+.kitty-background-two {
+    display: none;
+}
+
+.kitty-background-three {
+    display: none;
+}
+}
+
+/* MOSTRANDO IMAGEN NIGTH / SEGUNDA IMAGEN */
+@media (min-width: 768px) {
+.kitty-background-one {
+    display: none;
+}
+
+.kitty-background-two {
+    display: block;
+}
+
+.kitty-background-three {
+    display: none;
+}
+}
+
+/* MOSTRANDO IMAGEN SUNNY / TERCERA IMAGEN */
+@media (min-width: 1024px) {
+.kitty-background-one {
+    display: none;
+}
+
+.kitty-background-two {
+    display: none;
+}
+
+.kitty-background-three {
+    display: block;
+}
+}
